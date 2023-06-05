@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Author Munawar Johar date 16-06-2023 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text analyzer by Munawar Johar</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap5/css/bootstrap.min.css">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+
+    <main>
+        <div class="container text-center">
+            <h1 class="py-4 bg-dark text-light rounded"><i class="fas fa-swatchbook"></i>Text Analyzer</h1>
+        </div>
+    </main>
+    <div class="container">
+        <h6 class="my-4 text-center"> Wellcome to the text analyzer </h6>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Enter you text here " id="inputText" style="height:250px"></textarea>
+            <label for="inputText">Input your text here</label>
+        </div>
+        <div class="buttons my-4 text-center">
+            <button type="button" class="btn btn-success" id="upperCase"> UpperCase</button>
+            <button type="button" class="btn btn-info" id="lowerCase"> LowerCase</button>
+            <button type="button" class="btn btn-danger" id="removeLine"> RemoveLine</button>
+            <button type="button" class="btn btn-warning" id="spaces"> Remove Spaces</button>
+            <button type="button" class="btn btn-secondary" id="clipBoard"> Clipboard</button>
+
+        </div>
+        <div class="information"> <span id="wordCount"> 0 </span> word and <span id="characterCount"> 0</span> Characters </div>
+    </div>
+
+
+
+
+    <script src="css/bootstrap5/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

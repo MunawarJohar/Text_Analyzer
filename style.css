@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.d-flex button{
+    margin:10px !important;
+   
+}
+
+.d-flex table{
+    margin:10px 20px !important;
+}
+.table>:not(:first-child){
+    border-top: 0px !important;
+}
+
+table.btnedit{
+    color: lightsalmon;
+    cursor: pointer;
+}
